@@ -4,8 +4,7 @@ interface
 
 uses
   System.Classes,
-  System.SysUtils,
-  Mailer4D.Message.Interfaces;
+  System.SysUtils;
 
 type
   IMailer = interface ['{24CC4F06-D558-4A4C-B646-67C4F377220D}']
