@@ -82,5 +82,7 @@ end;
 
 ## Sample code
 Check out the sample code available with a simple user case.
-
+<p align="left">
+  <img src="https://github.com/willisnou/Mailer4D/blob/main/resources/sample-project.png"><br>
+</p>
 Issues, questions or suggestions are apreciated.
