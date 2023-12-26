@@ -246,14 +246,12 @@ end;
 
 procedure TMailer.Prepare;
 begin
-  //Result:= False;
   if (FMessage.Recipients.Count > 0) then
     if not (FSocket.Host.Trim.IsEmpty) then
       if not (FSocket.UserName.Trim.IsEmpty) then
         if not (FSocket.Password.Trim.IsEmpty) then
           if not (FSocket.Port > 0) then
-            raise Exception.Create('Before send message you must have recipients and set SMTP definitions.');
-          //Result := not (FSocket.Port > 0);
+            raise Exception.Create('Before send a message you must have recipients and set SMTP.');
 end;
 
 function TMailer.AddRecipient(const AAddress, AName: String): IMailer;
